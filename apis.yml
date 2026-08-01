@@ -1,7 +1,25 @@
 aid: screenhero
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/screenhero.png
 name: Screenhero
-description: Screenhero is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Screenhero was a Y Combinator (W13) startup that built interactive screen
+  sharing with voice and video, letting remote users share and control any application
+  together. It was acquired by Slack in January 2015; the six-person team joined Slack
+  and the standalone Screenhero product was discontinued, with its screen-sharing,
+  voice, and video capabilities folded into Slack (today surfaced as Slack Huddles).
+  The screenhero.com domain now 301-redirects to slack.com/features/huddles. No independent
+  Screenhero developer portal, API, or SDK exists; this record is retained as a historical
+  a16z portfolio-company lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/screenhero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,32 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Slack
+x-acquired-date: '2015-01-28'
+x-successor-url: https://slack.com/features/huddles
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Screen Sharing
+- Video Conferencing
+- Collaboration
+- Remote Work
+- Acquired
+- Y Combinator
+common:
+- type: Website
+  url: https://slack.com/features/huddles
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
